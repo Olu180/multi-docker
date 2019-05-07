@@ -12,7 +12,7 @@ services:
     ports:
       - '3050:80'
   api:
-    build: 
+    build:
       dockerfile: Dockerfile.dev
       context: ./server
     volumes:
